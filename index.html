@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container py-4">
+        <div class="row gy-3">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <img src="img/logo.png" alt="">
+            </div>
+            <div class="col-lg-5 col-md-6 col-sm-12">
+                    <div class="container-fluid">
+                        <input class="form-control rounded-pill px-4 py-2" type="search" placeholder="Search book" aria-label="Search">
+                    </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="navbar-nav d-flex flex-row justify-content-around w-75">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">FAQ</a>
+                    </li>
+                    <li class="nav-item mt-2">
+                        <img src="icons/shopping.png" alt="" width="30px">
+                      </li>
+                  <button class="px-4 py-2 rounded-pill text-light fw-bold border-0 bg-red">Sign in</button>
+
+                  </ul>
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid slide1 pb-5">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid ">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav m-auto w-25 d-flex justify-content-around">
+                
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold text-muted" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold text-muted" href="#">Categories</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold text-muted" href="#">Contect</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+         <div id="carouselExampleIndicators" class="carousel slide container" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner ">
+        <div class="carousel-item active ">
+            <img src="img/h1_hero1.png" class="d-block w-100" alt="...">
+
+            <div class="carousel-caption d-none d-md-block d-flex align-items-center h-75 w-25 m-auto">
+                <button class="bg-light text-muted rounded-pill border-0 py-1 px-3">Science Fiction</button>
+                <h1 class="carausel-h1 mb-3 mt-3 text-light">The History of Phipino</h1>
+                <button class="px-5 py-3 rounded-pill text-light fw-bold border-0 bg-red">Browse Store</button>
+                 
+               </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/h1_hero2.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block d-flex align-items-center h-75 w-25 m-auto">
+              <button class="bg-light text-muted rounded-pill border-0 py-1 px-3">Science Fiction</button>
+              <h1 class="carausel-h1 mb-3 mt-3 text-light">The History of Phipino</h1>
+              <button class="px-5 py-3 rounded-pill text-light fw-bold border-0 bg-red">Browse Store</button>
+               
+             </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/h1_hero3.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block d-flex align-items-center h-75 w-25 m-auto">
+              <button class="bg-light text-muted rounded-pill border-0 py-1 px-3">Science Fiction</button>
+              <h1 class="carausel-h1 mb-3 mt-3 text-light">The History of Phipino</h1>
+              <button class="px-5 py-3 rounded-pill text-light fw-bold border-0 bg-red">Browse Store</button>
+               
+             </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+    </div>
+     <div class="container-fluid slide1 py-5">
+      
+<h2 class="text-center fw-bold">Best Selling Books Ever</h2>
+<div class="container">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner mt-5">
+          <div class="carousel-item active">
+           
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col-lg-2 col-md-4 col-sm-12">
+    <div class="card h-100">
+      <img src="cards/one.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title fw-bold">Moon Dance</h5>
+        <p class="card-text text-secondary">J.R Rain</p>
+        <div class="details d-flex justify-content-between">
+          <div class="review">
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <br> <span class="text muted review">(120 Review)</span>
+          </div>
+          <p class="orenge fs-4 fw-bold">$50</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-4 col-sm-12">
+    <div class="card h-100">
+      <img src="cards/two.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title fw-bold">Moon Dance</h5>
+        <p class="card-text text-secondary">J.R Rain</p>
+        <div class="details d-flex justify-content-between">
+          <div class="review">
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <br> <span class="text muted review">(120 Review)</span>
+          </div>
+          <p class="orenge fs-4 fw-bold">$50</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-4 col-sm-12">
+    <div class="card h-100">
+      <img src="cards/three.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title fw-bold">Moon Dance</h5>
+        <p class="card-text text-secondary">J.R Rain</p>
+        <div class="details d-flex justify-content-between">
+          <div class="review">
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <br> <span class="text muted review">(120 Review)</span>
+          </div>
+          <p class="orenge fs-4 fw-bold">$50</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-4 col-sm-12">
+    <div class="card h-100">
+      <img src="cards/four.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title fw-bold">Moon Dance</h5>
+        <p class="card-text text-secondary">J.R Rain</p>
+        <div class="details d-flex justify-content-between">
+          <div class="review">
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <br> <span class="text muted review">(120 Review)</span>
+          </div>
+          <p class="orenge fs-4 fw-bold">$50</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-4 col-sm-12">
+    <div class="card h-100">
+      <img src="cards/five.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title fw-bold">Moon Dance</h5>
+        <p class="card-text text-secondary">J.R Rain</p>
+        <div class="details d-flex justify-content-between">
+          <div class="review">
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <br> <span class="text muted review">(120 Review)</span>
+          </div>
+          <p class="orenge fs-4 fw-bold">$50</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-4 col-sm-12">
+    <div class="card h-100">
+      <img src="cards/six.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title fw-bold">Moon Dance</h5>
+        <p class="card-text text-secondary">J.R Rain</p>
+        <div class="details d-flex justify-content-between">
+          <div class="review">
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <br> <span class="text muted review">(120 Review)</span>
+          </div>
+          <p class="orenge fs-4 fw-bold">$50</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+          <div class="carousel-item">
+           
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col-lg-2 col-md-4 col-sm-12">
+    <div class="card h-100">
+      <img src="cards/two.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title fw-bold">Moon Dance</h5>
+        <p class="card-text text-secondary">J.R Rain</p>
+        <div class="details d-flex justify-content-between">
+          <div class="review">
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <br> <span class="text muted review">(120 Review)</span>
+          </div>
+          <p class="orenge fs-4 fw-bold">$50</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-4 col-sm-12">
+    <div class="card h-100">
+      <img src="cards/three.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title fw-bold">Moon Dance</h5>
+        <p class="card-text text-secondary">J.R Rain</p>
+        <div class="details d-flex justify-content-between">
+          <div class="review">
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <br> <span class="text muted review">(120 Review)</span>
+          </div>
+          <p class="orenge fs-4 fw-bold">$50</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-4 col-sm-12">
+    <div class="card h-100">
+      <img src="cards/four.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title fw-bold">Moon Dance</h5>
+        <p class="card-text text-secondary">J.R Rain</p>
+        <div class="details d-flex justify-content-between">
+          <div class="review">
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <br> <span class="text muted review">(120 Review)</span>
+          </div>
+          <p class="orenge fs-4 fw-bold">$50</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-4 col-sm-12">
+    <div class="card h-100">
+      <img src="cards/five.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title fw-bold">Moon Dance</h5>
+        <p class="card-text text-secondary">J.R Rain</p>
+        <div class="details d-flex justify-content-between">
+          <div class="review">
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <br> <span class="text muted review">(120 Review)</span>
+          </div>
+          <p class="orenge fs-4 fw-bold">$50</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-4 col-sm-12">
+    <div class="card h-100">
+      <img src="cards/six.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title fw-bold">Moon Dance</h5>
+        <p class="card-text text-secondary">J.R Rain</p>
+        <div class="details d-flex justify-content-between">
+          <div class="review">
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <br> <span class="text muted review">(120 Review)</span>
+          </div>
+          <p class="orenge fs-4 fw-bold">$50</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-4 col-sm-12">
+    <div class="card h-100">
+      <img src="cards/one.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title fw-bold">Moon Dance</h5>
+        <p class="card-text text-secondary">J.R Rain</p>
+        <div class="details d-flex justify-content-between">
+          <div class="review">
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <br> <span class="text muted review">(120 Review)</span>
+          </div>
+          <p class="orenge fs-4 fw-bold">$50</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+          <div class="carousel-item">
+           
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col-lg-2 col-md-4 col-sm-12">
+    <div class="card h-100">
+      <img src="cards/three.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title fw-bold">Moon Dance</h5>
+        <p class="card-text text-secondary">J.R Rain</p>
+        <div class="details d-flex justify-content-between">
+          <div class="review">
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <br> <span class="text muted review">(120 Review)</span>
+          </div>
+          <p class="orenge fs-4 fw-bold">$50</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-4 col-sm-12">
+    <div class="card h-100">
+      <img src="cards/four.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title fw-bold">Moon Dance</h5>
+        <p class="card-text text-secondary">J.R Rain</p>
+        <div class="details d-flex justify-content-between">
+          <div class="review">
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <br> <span class="text muted review">(120 Review)</span>
+          </div>
+          <p class="orenge fs-4 fw-bold">$50</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-4 col-sm-12">
+    <div class="card h-100">
+      <img src="cards/five.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title fw-bold">Moon Dance</h5>
+        <p class="card-text text-secondary">J.R Rain</p>
+        <div class="details d-flex justify-content-between">
+          <div class="review">
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <br> <span class="text muted review">(120 Review)</span>
+          </div>
+          <p class="orenge fs-4 fw-bold">$50</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-4 col-sm-12">
+    <div class="card h-100">
+      <img src="cards/six.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title fw-bold">Moon Dance</h5>
+        <p class="card-text text-secondary">J.R Rain</p>
+        <div class="details d-flex justify-content-between">
+          <div class="review">
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <br> <span class="text muted review">(120 Review)</span>
+          </div>
+          <p class="orenge fs-4 fw-bold">$50</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-4 col-sm-12">
+    <div class="card h-100">
+      <img src="cards/one.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title fw-bold">Moon Dance</h5>
+        <p class="card-text text-secondary">J.R Rain</p>
+        <div class="details d-flex justify-content-between">
+          <div class="review">
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <br> <span class="text muted review">(120 Review)</span>
+          </div>
+          <p class="orenge fs-4 fw-bold">$50</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-4 col-sm-12">
+    <div class="card h-100">
+      <img src="cards/two.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title fw-bold">Moon Dance</h5>
+        <p class="card-text text-secondary">J.R Rain</p>
+        <div class="details d-flex justify-content-between">
+          <div class="review">
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <i class="fas fa-star orenge"></i>
+            <br> <span class="text muted review">(120 Review)</span>
+          </div>
+          <p class="orenge fs-4 fw-bold">$50</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+     </div>
+
+    <div class="container-fluid py-5">
+      <div class="container">
+          <div class="row">
+            <div class="col-lg-9 col-md-9 col-sm-12">
+                <div class="head-data d-flex justify-content-between">
+                  <h2 class="fw-bold">Featured This Week</h2>
+                  <button class="bg-transparent border-bottom border-top-0 border-start-0 border-end-0 text-muted">View All</button>
+                </div>
+                <div id="carouselExample" class="carousel bg-red mt-5 slide">
+                  <div class="container p-5">
+                  <div class="carousel-inner px-5">
+                    
+                    <div class="carousel-item active">
+                      <div class="row">
+                      <div class="col-lg-4 col-md-4 col-sm-12">
+                      <img src="img/best-books1.png" class="d-block w-100" alt="...">
+
+                      </div>
+                      <div class="col-lg-8 col-md-8 col-sm-12">
+                         <h1 class="text-light fw-bold">The Rage of Dragons</h1>
+                         <span class="text-light">By Eivan Winter</span>
+                         <div class="prize text-light fw-bold fs-2 mt-3">
+                                 $50
+                         </div>
+                         <div class="star mt-2">
+                          <i class="fas fa-star text-light"></i>
+                          <i class="fas fa-star text-light"></i>
+                          <i class="fas fa-star text-light"></i>
+                          <i class="fas fa-star text-light"></i>
+                          <i class="fas fa-star text-light"></i>
+                          
+                         </div>
+                  <button class="px-5 py-3 rounded-pill text-light fw-bold border-light mt-3 border-1 fw-bold bg-transparent">View Details</button>
+
+                      </div>
+                    </div>
+                  </div>
+                    <div class="carousel-item">
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                        <img src="img/best-books1.png" class="d-block w-100" alt="...">
+  
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-12">
+                           <h1 class="text-light fw-bold">The Rage of Dragons</h1>
+                           <span class="text-light">By Eivan Winter</span>
+                           <div class="prize text-light fw-bold fs-2 mt-3">
+                                   $50
+                           </div>
+                           <div class="star mt-2">
+                            <i class="fas fa-star text-light"></i>
+                            <i class="fas fa-star text-light"></i>
+                            <i class="fas fa-star text-light"></i>
+                            <i class="fas fa-star text-light"></i>
+                            <i class="fas fa-star text-light"></i>
+                            
+                           </div>
+                    <button class="px-5 py-3 rounded-pill text-light fw-bold border-light mt-3 border-1 fw-bold bg-transparent">View Details</button>
+  
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                        <img src="img/best-books1.png" class="d-block w-100" alt="...">
+  
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-12">
+                           <h1 class="text-light fw-bold">The Rage of Dragons</h1>
+                           <span class="text-light">By Eivan Winter</span>
+                           <div class="prize text-light fw-bold fs-2 mt-3">
+                                   $50
+                           </div>
+                           <div class="star mt-2">
+                            <i class="fas fa-star text-light"></i>
+                            <i class="fas fa-star text-light"></i>
+                            <i class="fas fa-star text-light"></i>
+                            <i class="fas fa-star text-light"></i>
+                            <i class="fas fa-star text-light"></i>
+                            
+                           </div>
+                    <button class="px-5 py-3 rounded-pill text-light fw-bold border-light mt-3 border-1 fw-bold bg-transparent">View Details</button>
+  
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12">
+              <img src="img/drama.png" alt="">
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="container-fluid py-5">
+        <div class="head-data d-flex justify-content-between container">
+          <h2 class="fw-bold">Latest Published items</h2>
+          <div class="btns">
+            <button class="bg-red text-light rounded-pill py-1 px-4 border-0 ">All</button>
+            <button class="bg-transparent text-muted rounded-pill py-1 px-4 border-secondary-subtle ">Horror</button>
+            <button class="bg-transparent text-muted rounded-pill py-1 px-4 border-secondary-subtle ">Thriller</button>
+            <button class="bg-transparent text-muted rounded-pill py-1 px-4 border-secondary-subtle ">Science Fiction</button>
+            <button class="bg-transparent text-muted rounded-pill py-1 px-4 border-secondary-subtle ">History</button>
+
+          </div>
+        </div>
+        <div class="container mt-5">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col-lg-2 col-md-4 col-sm-12">
+                  <div class="card h-100">
+                    <img src="cards/one.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Moon Dance</h5>
+                      <p class="card-text text-secondary">J.R Rain</p>
+                      <div class="details d-flex justify-content-between">
+                        <div class="review">
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <br> <span class="text muted review">(120 Review)</span>
+                        </div>
+                        <p class="orenge fs-4 fw-bold">$50</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-12">
+                  <div class="card h-100">
+                    <img src="cards/two.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Moon Dance</h5>
+                      <p class="card-text text-secondary">J.R Rain</p>
+                      <div class="details d-flex justify-content-between">
+                        <div class="review">
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <br> <span class="text muted review">(120 Review)</span>
+                        </div>
+                        <p class="orenge fs-4 fw-bold">$50</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-12">
+                  <div class="card h-100">
+                    <img src="cards/three.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Moon Dance</h5>
+                      <p class="card-text text-secondary">J.R Rain</p>
+                      <div class="details d-flex justify-content-between">
+                        <div class="review">
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <br> <span class="text muted review">(120 Review)</span>
+                        </div>
+                        <p class="orenge fs-4 fw-bold">$50</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-12">
+                  <div class="card h-100">
+                    <img src="cards/four.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Moon Dance</h5>
+                      <p class="card-text text-secondary">J.R Rain</p>
+                      <div class="details d-flex justify-content-between">
+                        <div class="review">
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <br> <span class="text muted review">(120 Review)</span>
+                        </div>
+                        <p class="orenge fs-4 fw-bold">$50</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-12">
+                  <div class="card h-100">
+                    <img src="cards/five.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Moon Dance</h5>
+                      <p class="card-text text-secondary">J.R Rain</p>
+                      <div class="details d-flex justify-content-between">
+                        <div class="review">
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <br> <span class="text muted review">(120 Review)</span>
+                        </div>
+                        <p class="orenge fs-4 fw-bold">$50</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-12">
+                  <div class="card h-100">
+                    <img src="cards/six.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Moon Dance</h5>
+                      <p class="card-text text-secondary">J.R Rain</p>
+                      <div class="details d-flex justify-content-between">
+                        <div class="review">
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <br> <span class="text muted review">(120 Review)</span>
+                        </div>
+                        <p class="orenge fs-4 fw-bold">$50</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col-lg-2 col-md-4 col-sm-12">
+                  <div class="card h-100">
+                    <img src="cards/two.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Moon Dance</h5>
+                      <p class="card-text text-secondary">J.R Rain</p>
+                      <div class="details d-flex justify-content-between">
+                        <div class="review">
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <br> <span class="text muted review">(120 Review)</span>
+                        </div>
+                        <p class="orenge fs-4 fw-bold">$50</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-12">
+                  <div class="card h-100">
+                    <img src="cards/three.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Moon Dance</h5>
+                      <p class="card-text text-secondary">J.R Rain</p>
+                      <div class="details d-flex justify-content-between">
+                        <div class="review">
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <br> <span class="text muted review">(120 Review)</span>
+                        </div>
+                        <p class="orenge fs-4 fw-bold">$50</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-12">
+                  <div class="card h-100">
+                    <img src="cards/four.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Moon Dance</h5>
+                      <p class="card-text text-secondary">J.R Rain</p>
+                      <div class="details d-flex justify-content-between">
+                        <div class="review">
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <br> <span class="text muted review">(120 Review)</span>
+                        </div>
+                        <p class="orenge fs-4 fw-bold">$50</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-12">
+                  <div class="card h-100">
+                    <img src="cards/five.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Moon Dance</h5>
+                      <p class="card-text text-secondary">J.R Rain</p>
+                      <div class="details d-flex justify-content-between">
+                        <div class="review">
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <br> <span class="text muted review">(120 Review)</span>
+                        </div>
+                        <p class="orenge fs-4 fw-bold">$50</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-12">
+                  <div class="card h-100">
+                    <img src="cards/six.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Moon Dance</h5>
+                      <p class="card-text text-secondary">J.R Rain</p>
+                      <div class="details d-flex justify-content-between">
+                        <div class="review">
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <br> <span class="text muted review">(120 Review)</span>
+                        </div>
+                        <p class="orenge fs-4 fw-bold">$50</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-12">
+                  <div class="card h-100">
+                    <img src="cards/one.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Moon Dance</h5>
+                      <p class="card-text text-secondary">J.R Rain</p>
+                      <div class="details d-flex justify-content-between">
+                        <div class="review">
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <br> <span class="text muted review">(120 Review)</span>
+                        </div>
+                        <p class="orenge fs-4 fw-bold">$50</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col-lg-2 col-md-4 col-sm-12">
+                  <div class="card h-100">
+                    <img src="cards/six.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Moon Dance</h5>
+                      <p class="card-text text-secondary">J.R Rain</p>
+                      <div class="details d-flex justify-content-between">
+                        <div class="review">
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <br> <span class="text muted review">(120 Review)</span>
+                        </div>
+                        <p class="orenge fs-4 fw-bold">$50</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-12">
+                  <div class="card h-100">
+                    <img src="cards/five.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Moon Dance</h5>
+                      <p class="card-text text-secondary">J.R Rain</p>
+                      <div class="details d-flex justify-content-between">
+                        <div class="review">
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <br> <span class="text muted review">(120 Review)</span>
+                        </div>
+                        <p class="orenge fs-4 fw-bold">$50</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-12">
+                  <div class="card h-100">
+                    <img src="cards/four.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Moon Dance</h5>
+                      <p class="card-text text-secondary">J.R Rain</p>
+                      <div class="details d-flex justify-content-between">
+                        <div class="review">
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <br> <span class="text muted review">(120 Review)</span>
+                        </div>
+                        <p class="orenge fs-4 fw-bold">$50</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-12">
+                  <div class="card h-100">
+                    <img src="cards/three.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Moon Dance</h5>
+                      <p class="card-text text-secondary">J.R Rain</p>
+                      <div class="details d-flex justify-content-between">
+                        <div class="review">
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <br> <span class="text muted review">(120 Review)</span>
+                        </div>
+                        <p class="orenge fs-4 fw-bold">$50</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-12">
+                  <div class="card h-100">
+                    <img src="cards/two.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Moon Dance</h5>
+                      <p class="card-text text-secondary">J.R Rain</p>
+                      <div class="details d-flex justify-content-between">
+                        <div class="review">
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <br> <span class="text muted review">(120 Review)</span>
+                        </div>
+                        <p class="orenge fs-4 fw-bold">$50</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-12">
+                  <div class="card h-100">
+                    <img src="cards/one.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Moon Dance</h5>
+                      <p class="card-text text-secondary">J.R Rain</p>
+                      <div class="details d-flex justify-content-between">
+                        <div class="review">
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <i class="fas fa-star orenge"></i>
+                          <br> <span class="text muted review">(120 Review)</span>
+                        </div>
+                        <p class="orenge fs-4 fw-bold">$50</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="btn m-auto w-100 mt-5">
+      <button class="px-5 py-3 rounded-pill text-red fw-bold custom-btn">Browse Store</button>
+    </div>
+    </div>
+    <div class="container-fluid my-5">
+      <div class="container">
+        <div class="row gx-5">
+          <div class="col-lg-6 col-md-6 col-sm-12 my-2">
+            <div class="card1  w-100 h-100 py-5 px-2">
+           <div class="row">
+            <div class="col text-center">
+              <h1 class="text-light">The History
+                of Phipino</h1>
+            </div>
+            <div class="col text-center">
+              <button class="px-4 py-2 mt-4 rounded-pill text-light fw-bold border-0 bg-red">View Details</button>
+            </div>
+            </div>
+           </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 my-2">
+            <div class="card2 w-100 h-100 py-5 px-2">
+            <div class="row">
+             <div class="col text-center">
+               <h1 class="text-light">Wilma Mumduya</h1>
+             </div>
+             <div class="col text-center">
+               <button class="px-4 py-2 mt-4 rounded-pill text-light fw-bold border-0 bg-red">View Details</button>
+              </div>
+             </div>
+            </div>
+           </div>
+        </div>
+      </div>
+    </div>
+    <div class="conatiner-fluid mt-5 bg-l">
+      <div class="container">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 mt-5 border-top">
+          <div class="col mb-3">
+            <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+              <img src="img/logo.png" alt="">
+            </a>
+            <p class="text-body-secondary">Get the breathing space now, and we’ll extend your term at the other end year for go.</p>
+            <div class="icons mt-2">
+             <a href="#" class="icon rounded-circle p-2">
+                <i class="fa-brands fa-facebook text-secondary "></i>
+              </a>
+              <a href="#" class="icon rounded-circle p-2 ms-2">
+                <i class="fa-brands fa-instagram text-secondary "></i>
+              </a>
+              <a href="#" class="icon rounded-circle p-2 ms-2">
+                <i class="fa-brands fa-linkedin-in text-secondary "></i>
+              </a>
+              <a href="#" class="icon rounded-circle p-2 ms-2">
+                <i class="fa-brands fa-youtube text-secondary "></i>
+              </a>
+            </div>
+          </div>
+      
+          <div class="col mb-3">
+      
+          </div>
+      
+          <div class="col mb-3">
+            <h5 class="fw-bold">Book Category</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">History</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Horror - Thriller</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Love Stories</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Science Fiction</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Business</a></li>
+            </ul>
+          </div>
+      
+          <div class="col mb-3">
+           
+            <ul class="nav flex-column mt-4">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Biography</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Astrology</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Digital Marketing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Software Development</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Ecommerce</a></li>
+            </ul>
+          </div>
+      
+          <div class="col mb-3">
+            <h5 class="fw-bold">Site Map</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About Us</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Blog</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact</a></li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
